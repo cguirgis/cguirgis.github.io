@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    width: 768px;
+    background-color: #9D9D9D;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.large-letter-group {
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #349338;
+    height: 650px;
+}
+
+.large-letter-group h1 {
+    background-color: #FF2121;
+    margin-left: 150px;
+    margin-top: 100px;
+    height: 650px;
+    width: 475px;
+    margin-bottom: -30px;
+}
+
+.large-letter-group button {
+    height: 99px;
+    width: 62px;
+    background-color: #F3FC13;
+    margin-left: 650px;
+    margin-top: -300px;
+}
+
+.letter-set {
+    background-color: #2165FF;
+    height: 158px;
+    margin-top: 40px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.make-copy {
+    background-color: #9D9D9D;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    margin-top: 50px;
+}
+
+footer img {
+    height: 95px;
+    width: 95px;
+    background-color: #FFFFFF;
+    margin-right: 15px;
+}
+
+footer .author-heading {
+    width: 109px;
+    height: 30px;
+    background-color: #FF9021;
+    margin-right: 50px;
+}
+
+footer .sources-section {
+    width: 398px;
+    background-color: #FFFFFF;
+    margin-right: 50px;
+}

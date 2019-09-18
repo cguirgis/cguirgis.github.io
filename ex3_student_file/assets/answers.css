@@ -14,8 +14,9 @@
 #gold-froggie {
     position: fixed;
     top: 70%;
-    left: 87.5%;
-    z-index: 10;
+    right: -1%;
+    left: unset;
+    z-index: 99;
 }
 
 #red-froggie {

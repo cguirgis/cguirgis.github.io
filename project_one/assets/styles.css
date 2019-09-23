@@ -6,11 +6,28 @@ body {
 
 .container {
     width: 632px;
-    height: 1159px;
+    height: 100px;
     background-color: #000000;
     margin-left: auto;
     margin-right: auto;
 }
+
+.letter-container img {
+    position: relative;
+    z-index: 99;
+    left:10%;
+    margin: 0;
+    padding: 0; 
+    margin-top: -498px;
+    margin-left: 49.75px;
+    visibility: hidden;
+    
+}
+
+.letter-container img.visible {
+    visibility: visible;
+}
+
 
 .title {
     background-color: #000000;
@@ -42,6 +59,17 @@ body {
     font-size: 514px;
     font-weight: 100;
     color: #FFF500;
+}
+
+.font-name {
+    color: #FF1D00;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Monoton', cursive;
+}
+
+.font-description {
+    color: #FFFFFF;
+    font: 'Helvetica';
 }
 
 .large-letter-group button {
@@ -83,7 +111,7 @@ footer img {
 footer .author-heading {
     width: 109px;
     height: 30px;
-    background-color: #FF9021;
+    background-color: #000000;
     margin-right: 50px;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Monoton', cursive;
@@ -91,12 +119,21 @@ footer .author-heading {
     color: red;
 }
 
-footer .sources-section {
+
+footer .sources-section h3 {
     width: 398px;
-    background-color: #FFFFFF;
+    background-color: #000000;
     margin-right: 50px;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Monoton', cursive;
     font-size: 18px;
-    color: red;
+    color: #FF1D00;
 }
+
+footer .sources-section div{
+    width: 398px;
+    background-color: #000000;
+    margin-right: 50px;
+    font-family: 'Helvetica', serif;
+    font-size: 18px;
+    color: #FFFFFF;

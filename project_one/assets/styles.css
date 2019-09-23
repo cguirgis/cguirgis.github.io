@@ -21,14 +21,11 @@ body {
     margin-top: -498px;
     margin-left: 49.75px;
     visibility: hidden;
-    
 }
 
-.letter-container img.visible {
+.letter-analysis {
     visibility: visible;
 }
-
-
 .title {
     background-color: #000000;
     height: 71px;

@@ -5,11 +5,23 @@ body {
 }
 
 .container {
-    width: 768px;
+    width: 632px;
+    height: 1159px;
     background-color: #000000;
     margin-left: auto;
     margin-right: auto;
 }
+
+.title {
+    background-color: #000000;
+    height: 71px;
+    width: 632px;
+    margin-left: 200px;
+    margin-right: auto;
+    color: #FFFFFF;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Monoton', cursive;
+} 
 
 .large-letter-group {
     justify-content: center;

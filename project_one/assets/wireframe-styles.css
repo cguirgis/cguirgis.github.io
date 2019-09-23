@@ -24,7 +24,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     background-color: #FFFFFF;
-    height: 650px;
+    height: 500px;
 }
 
 .large-letter-group h1 {
@@ -34,15 +34,14 @@ body {
     margin-left: 90px;
     height: 482px;
     width: 453px;
-    margin-bottom: -30px;
+    margin-bottom: -100px;
 }
 
 .large-letter-group button {
     height: 99px;
     width: 62px;
     background-color: #FFF8A0;
-    margin-left: 650px;
-    margin-top: -300px;
+    margin-left: 550px;
 }
 
 .font-name {
@@ -104,5 +103,5 @@ footer .sources-section {
 .sources-information {
     background-color: #F8A3A8;
     height: 136px;
-    width: 459px;
+    width: 430px;
 }

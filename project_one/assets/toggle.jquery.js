@@ -1,7 +1,8 @@
 $(document).ready(function (){
     //ID or Class name of the button goes into the first section
-    $('#Click-Me').click(function() {
+    $('#button').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.
-        $("#letter-analysis").toggleClass("visible");
+        $("#letter-analysis").toggleClass("jordan");
+        $(".large-letter-group h1").toggleClass("glow");
         });
 });

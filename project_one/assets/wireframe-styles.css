@@ -3,10 +3,9 @@ body {
     margin: 0;
     background-color: #FFFFFF;
 }
-
 .container {
     width: 632px;
-    height: 1159px;
+    height: 1158px;
     background-color: #E6E6E6;
     margin-left: auto;
     margin-right: auto;
@@ -18,12 +17,12 @@ body {
     width: 632px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
     
 }
 .large-letter-group {
     justify-content: center;
     align-items: flex-end;
-    background-color: #FFFFFF;
     height: 500px;
 }
 
@@ -44,24 +43,25 @@ body {
     margin-left: 550px;
 }
 
+.letter-set {
+    background-color: #9CDCAA;
+    height: 158px;
+    margin-top: 0px;
+    justify-content: center;
+}
+
 .font-name {
     background-color: #F3C6A5;
     height: 37px;
     width: 152px;
+    margin-top: 25px;
 }
 
 .font-description {
     background-color: #FFB9F4;
     height: 114px;
     width: 632px;
-}
-
-.letter-set {
-    background-color: #9CDCAA;
-    height: 158px;
-    margin-top: 40px;
-    color: #FFFFFF;
-    justify-content: center;
+    margin-top: -25px
 }
 
 .make-copy {
@@ -71,7 +71,7 @@ body {
 
 footer {
     display: flex;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 footer .author-heading {
@@ -82,26 +82,28 @@ footer .author-heading {
 }
 
 footer img {
-    height: 95px;
-    width: 95px;
-    background-color: #FFFFFF;
-    margin-right: 15px;
+    height: 90px;
+    width: 90px;
+    background-color: #96CAF7;
+    margin-left: 27px;
+    margin-top: 25px;
 }
 
 .author-description {
     background-color: #FFF8A0;
     height: 40px;
     width: 152px;
+    margin-top: -20px
 }
 footer .sources-section {
     width: 131px;
     height: 35px;
     background-color: #BFB2F3;
-    margin-right: 50px;
 }
 
 .sources-information {
     background-color: #F8A3A8;
     height: 136px;
     width: 430px;
+    margin-top: 45px;  
 }

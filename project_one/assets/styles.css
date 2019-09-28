@@ -52,7 +52,7 @@ body {
     padding: 0; 
     margin-top: -875px;
     margin-left: 0.5px;
-    visibility: invisible;
+    visibility: hidden;
 }
 
 .letter-analysis {

@@ -18,7 +18,7 @@ body {
     height: 100px;
     width: 632px;
     margin-right: auto;
-    color: #FFFFFF;
+    color: #FF0000;
     font-family: 'Monoton', cursive;
     font-size: 25px;
     border-bottom-style: double;
@@ -73,16 +73,18 @@ body {
 }
 
 .font-name {
-    color: #FFFFFF;
+    color: #FF0000;
     font-family: 'Monoton', cursive;
     margin-top: 50px;
     font-size: 40px;
     border-bottom: double;
+    margin-right: 400px;
 }
 
 .font-description {
     color: #FFFFFF;
     font: 'Helvetica';
+    text-align: left;
 }
 
 .letter-container img#button-off {
@@ -91,7 +93,7 @@ body {
     z-index: 99px;
 }
 
-.letters img#background-letter {
+.letters img#letter-board {
     margin-top: -70px;
     margin-left: -40px
 }

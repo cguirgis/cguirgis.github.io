@@ -85,6 +85,7 @@ body {
     color: #FFFFFF;
     font: 'Helvetica';
     text-align: left;
+    margin-top: -25px;
 }
 
 .letter-container img#button-off {
@@ -123,33 +124,44 @@ footer img {
     height: 95px;
     width: 95px;
     background-color: #FFFFFF;
-    margin-right: 15px;
+    margin-left: 35px;
+    margin-top: -10px;
+    border: double;
 }
 
 footer .author-heading {
-    width: 109px;
+    width: 300px;
     height: 30px;
     background-color: #000000;
-    margin-right: 50px;
-    font-family: 'Monoton', cursive;
+    font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     color: red;
+    text-align: left;
+    margin-top: -50px;
 }
 
+footer .author-description {
+    color: #FF0000;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    margin-top: -15px
+    
+}
 
 footer .sources-section h3 {
     width: 398px;
     background-color: #000000;
     margin-right: 50px;
-    font-family: 'Monoton', cursive;
+    font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     color: #FF1D00;
 }
 
-footer .sources-section div{
+.sources-information {
     width: 398px;
     background-color: #000000;
     margin-right: 50px;
     font-family: 'Helvetica', serif;
-    font-size: 18px;
+    font-size: 12px;
     color: #FFFFFF;
+    text-align: left;

@@ -149,19 +149,30 @@ footer .author-description {
 }
 
 footer .sources-section h3 {
-    width: 398px;
+    width: 100px;
     background-color: #000000;
-    margin-right: 50px;
+    margin-right: 100px;
     font-family: 'Helvetica', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #FF1D00;
+    margin-top: -28px;
 }
 
-.sources-information {
+.sources-information-1 {
     width: 398px;
     background-color: #000000;
-    margin-right: 50px;
     font-family: 'Helvetica', serif;
     font-size: 12px;
     color: #FFFFFF;
     text-align: left;
+}
+    
+.sources-information-2 {
+    width: 398px;
+    background-color: #000000;
+    font-family: 'Helvetica', serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: left;
+}
+    

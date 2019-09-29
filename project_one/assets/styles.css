@@ -13,6 +13,8 @@ body {
     text-align: center;
 }
 
+
+
 .title {
     background-color: #000000;
     height: 100px;
@@ -107,7 +109,9 @@ body {
     justify-content: center;
     margin-top: -140px;
     margin-bottom: auto
-    display: inline-block
+    display: inline-block;
+    letter-spacing: 5px;
+    margin-left: 20px;
 }
 
 .make-copy {

@@ -148,7 +148,10 @@ footer .author-description {
     color: #FF0000;
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
-    margin-top: -15px
+    margin-top: -15px;
+    text-align: center;
+    margin-left: -60px;
+        
     
 }
 

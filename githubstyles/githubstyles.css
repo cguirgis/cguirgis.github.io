@@ -1,16 +1,24 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #FFFFFF;
+    background-color: #DAD3D1;
 }
 .container {
-    width: 632px;
-    height: 1034px;
+    width: 768px;
+    height: 1024px;
     background-color: #DAD3D1;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    z-index: 99;
+    color: #A35998;
 }
-.title {
+
+.container #background-flowers {
+    justify-content: center;
+    width: 768px;
+}
+}
+.title h1 {
     color: #A35998;
 }

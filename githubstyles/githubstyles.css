@@ -3,6 +3,14 @@ body {
     margin: 0;
     background-color: #FFFFFF;
 }
+.container {
+    width: 632px;
+    height: 1034px;
+    background-color: #DAD3D1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 .title {
-    color: red;
+    color: #A35998;
 }

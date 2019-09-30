@@ -11,14 +11,29 @@ body {
     margin-right: auto;
     text-align: center;
     z-index: 99;
-    color: #A35998;
 }
 
 .container #background-flowers {
     justify-content: center;
     width: 768px;
 }
+
+.container #profile {
+    width: 100px;
+    height: 100px; 
+    margin-top: -50px;
+    border-style:groove;
 }
+
 .title h1 {
     color: #A35998;
+    font-size: 60px;
+    margin-top: -5px;
+}
+
+.web-design {
+    color: #A35998;
+    font-size: 25px;
+    margin-top: -40px;
+    border-bottom-style: double;
 }

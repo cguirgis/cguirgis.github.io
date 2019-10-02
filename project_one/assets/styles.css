@@ -13,8 +13,6 @@ body {
     text-align: center;
 }
 
-
-
 .title {
     background-color: #000000;
     height: 100px;
@@ -125,12 +123,15 @@ footer {
 }
 
 footer img {
-    height: 95px;
-    width: 95px;
+    height: 75px;
+    width: 75px;
     background-color: #FFFFFF;
-    margin-left: 35px;
-    margin-top: -10px;
+    margin-left: 80px;
+    margin-top: -30px;
     border: double;
+    border-color: #FFF500;
+    border-width: thick;
+    z-index: 99px;
 }
 
 footer .author-heading {
@@ -139,20 +140,13 @@ footer .author-heading {
     background-color: #000000;
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
-    color: red;
+    color: #FF1D00;
     text-align: left;
-    margin-top: -50px;
-}
-
-footer .author-description {
-    color: #FF0000;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 18px;
-    margin-top: -15px;
-    text-align: center;
-    margin-left: -60px;
-        
-    
+    margin-bottom: -50px;
+    margin-top: 55px;
+    margin-left: -145px;
+    z-index: 98px;
+    text-align: center
 }
 
 footer .sources-section h3 {
@@ -162,7 +156,6 @@ footer .sources-section h3 {
     font-size: 20px;
     color: #FF1D00;
     margin-top: -28px;
-    margin-left: -10px;
 }
 
 .sources-information-1 {
@@ -173,6 +166,7 @@ footer .sources-section h3 {
     color: #FFFFFF;
     text-align: left;
     margin-top: -10px;
+    margin-left: 10px;
 }
     
 .sources-information-2 {
@@ -183,4 +177,63 @@ footer .sources-section h3 {
     color: #FFFFFF;
     text-align: left;
 }
-    
+
+a {
+    color: #FFF500;
+    text-decoration: underline;
+}
+/*.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+    margin-left: 625px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #FF1D00;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #FF1D00;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+I was able to create a toggle switch, but could not figure out how to make it toggle vertically.  Additionally, even when I was able to position it the way I wanted, I couldn't connect it to my button features correctly. 
+*/
+

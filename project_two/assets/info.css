@@ -1,0 +1,139 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EDDCC4;
+}
+
+.container {
+    width: 768px;
+    height: 1021px;
+    background-color: #EDDCC4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    height: 97px;
+    width: 725px;
+    margin-left: 13px;
+    margin-top: 16px;
+    text-align: center;
+    font-family: 'IM Fell Great Primer', 'serif';
+    font-size: 75px;
+    color: #620000;
+    font-style: italic;
+}
+
+.image {
+    background-color: #FFF83C;
+    height: 203px;
+    width: 272px;
+    margin-top: 20px;
+    margin-left: 248px;
+}
+
+.nickname {
+    height: 68px;
+    width: 594px;
+    margin-top: 60px;
+    margin-left: 87px;
+    text-align: center;
+    font-family: 'IM Fell Great Primer', 'serif';
+    font-size: 55px;
+    color: #620000;
+}
+
+.summary {
+    height: 138px;
+    width: 703px;
+    margin-top: 20px;
+    margin-left: 32.5px;
+    font-family: 'IM Fell Great Primer', 'serif';
+    font-size: 18px;
+    color: #620000;
+}
+
+.accordion {
+    background-color: #620000;
+    cursor: pointer;
+    padding: 18px;
+    color: #EDDCC4;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 20px;
+    font-family: 'IM Fell Great Primer', 'serif';
+    font-size: 18px;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+#key_panel {
+    background-color: #EDDCC4;
+    color: #620000;
+    font-size: 18px;
+    font-family: 'IM Fell Great Primer', 'serif';
+}
+
+#history_panel {
+    background-color: #EDDCC4;
+    color: #620000;
+    font-size: 18px;
+    font-family: 'IM Fell Great Primer', 'serif';
+}
+
+#today_panel {
+    background-color: #EDDCC4;
+    color: #620000;
+    font-size: 18px;
+    font-family: 'IM Fell Great Primer', 'serif';
+}
+
+#fun_facts_panel {
+    background-color: #EDDCC4;
+    color: #620000;
+    font-size: 18px;
+    font-family: 'IM Fell Great Primer', 'serif';
+}
+
+#looking_for_more_panel {
+    background-color: #EDDCC4;
+    color: #620000;
+    font-size: 18px;
+    font-family: 'IM Fell Great Primer', 'serif';
+}
+
+.navigation_panel {
+    display: flex;
+    margin-left: 440px;
+    margin-top: 10px;
+}
+
+.compass {
+    background-color: #EDDCC4;
+    height: 61px;
+    width: 58px;
+}
+
+.navigation {
+    background-color: #EDDCC4;
+    height: 61px;
+    width: 273px;
+    margin-right: 25px;
+    font-family: 'IM Fell Great Primer', 'serif';
+    color: #620000;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.visible {
+    display: block;
+
+}

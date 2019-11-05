@@ -1,23 +1,27 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #000000;
+    background-color: #EDDCC4;
 }
 
 .container {
     width: 768px;
     height: 1021px;
-    background-color:#000000;
+    background-color:#EDDCC4;
     margin-left: auto;
     margin-right: auto;
 }
 
 .title {
-    background-color: #FF6262;
     height: 97px;
     width: 725px;
     margin-left: 21.5px;
     margin-top: 25px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 70px;
+    font-style: italic;
+    text-align: center;
+    color: #620000;
 }
 
 .quiz { 
@@ -45,18 +49,22 @@ body {
 }
     .navigation_panel {
     display: flex;
-    margin-left: 425px;
+    margin-left: 440px;
     margin-top: 10px;
 }
+
 .compass {
-    background-color: #FFF83C;
+    background-color: #EDDCC4;
     height: 61px;
-    width:58px;
+    width: 58px;
 }
 
 .navigation {
-    background-color: #00FF2B;
+    background-color: #EDDCC4;
     height: 61px;
     width: 273px;
-    margin-left: 10px;
-}
+    margin-right: 25px;
+    font-family: 'IM Fell Great Primer', 'serif';
+    color: #620000;
+    font-style: italic;
+    font-size: 40px;

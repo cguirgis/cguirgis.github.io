@@ -1,0 +1,239 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    width: 632px;
+    height: 1034px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.title {
+    background-color: #000000;
+    height: 100px;
+    width: 632px;
+    margin-right: auto;
+    color: #FF0000;
+    font-family: 'Monoton', cursive;
+    font-size: 25px;
+    border-bottom-style: double;
+    border-spacing: 15px;
+    display: inline-block;
+} 
+
+.large-letter-group {
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #000000;
+    height: 650px;
+    margin-top: -250px
+}
+
+.large-letter-group h1 {
+    background-color: #000000;
+    margin-left: 80px;
+    margin-top: 100px;
+    height: 650px;
+    width: 475px;
+    font-family: 'Monoton', cursive;
+    font-size: 512px;
+    font-weight: 100;
+    color: #FFF500;
+}
+
+.letter-analysis {
+    position: relative;
+    z-index: 99;
+    height: 700px;
+    width: 601px;
+    left:10%;
+    margin: 0;
+    padding: 0; 
+    margin-top: -873px;
+    margin-left: -47.5px;
+    visibility: hidden;
+}
+
+.letter-analysis {
+    visibility: hidden;
+}
+
+
+.letter-container img.jordan {
+    visibility:visible;
+}
+
+.large-letter-group h1.glow {
+    text-shadow:0px 0px 1000px #FF0000;
+}
+
+.font-name {
+    color: #FF0000;
+    font-family: 'Monoton', cursive;
+    margin-top: 50px;
+    font-size: 40px;
+    border-bottom: double;
+    margin-right: 400px;
+}
+
+.font-description {
+    color: #FFFFFF;
+    font: 'Helvetica';
+    text-align: left;
+    margin-top: -25px;
+}
+
+.letter-container img#button-off {
+    margin-left: 610px;
+    margin-top: -150px; 
+    z-index: 99px;
+}
+
+.letters img#letter-board {
+    margin-top: -70px;
+    margin-left: -40px
+}
+
+.letter-options h1 {
+    height: 100px;
+    color: #000000;
+    font-family: 'Monoton', cursive;
+    font-size: 40px;
+    justify-content: center;
+    margin-top: -140px;
+    margin-bottom: auto
+    display: inline-block;
+    letter-spacing: 5px;
+    margin-left: 20px;
+}
+
+.make-copy {
+    background-color: #9D9D9D;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    margin-top: 50px;
+}
+
+footer img {
+    height: 75px;
+    width: 75px;
+    background-color: #FFFFFF;
+    margin-left: 80px;
+    margin-top: -30px;
+    border: double;
+    border-color: #FFF500;
+    border-width: thick;
+    z-index: 99px;
+}
+
+footer .author-heading {
+    width: 300px;
+    height: 30px;
+    background-color: #000000;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    color: #FF1D00;
+    text-align: left;
+    margin-bottom: -50px;
+    margin-top: 55px;
+    margin-left: -145px;
+    z-index: 98px;
+    text-align: center
+}
+
+footer .sources-section h3 {
+    width: 100px;
+    background-color: #000000;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+    color: #FF1D00;
+    margin-top: -28px;
+}
+
+.sources-information-1 {
+    width: 398px;
+    background-color: #000000;
+    font-family: 'Helvetica', serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+    
+.sources-information-2 {
+    width: 398px;
+    background-color: #000000;
+    font-family: 'Helvetica', serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+a {
+    color: #FFF500;
+    text-decoration: underline;
+}
+/*.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+    margin-left: 625px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #FF1D00;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #FF1D00;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+I was able to create a toggle switch, but could not figure out how to make it toggle vertically.  Additionally, even when I was able to position it the way I wanted, I couldn't connect it to my button features correctly. 
+*/
+

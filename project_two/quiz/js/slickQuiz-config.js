@@ -29,13 +29,13 @@ var quizJSON = {
             "q": "What is a mission?",
             "a": [
                 {"option": "A place where people learn what their mission is in life",               "correct": false},
-                {"option": "A religious school for young children",   "correct": true},
-                {"option": "A religious settlement where people come to worship",               "correct": false},
-                {"option": "A place where people learn to go undercover on a mission.", "correct": true} // no comma here
+                {"option": "A religious school for young children",   "correct": false},
+                {"option": "A religious settlement where people come to worship",               "correct": true},
+                {"option": "A place where people learn how to go undercover on a mission.", "correct": true} // no comma here
             ],
             "select_any": true,
-            "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
-            "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
+            "correct": "<p><span>Correct!</span> A mission is a religious settlement where people come to worship.</p>",
+            "incorrect": "<p><span>Incorrect.</span> You might want to reconsider your options.</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
             "q": "Where are you right now? Select ALL that apply.",

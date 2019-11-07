@@ -33,40 +33,42 @@ var quizJSON = {
                 {"option": "A religious settlement where people come to worship",               "correct": true},
                 {"option": "A place where people learn how to go undercover on a mission.", "correct": true} // no comma here
             ],
-            "select_any": true,
             "correct": "<p><span>Correct!</span> A mission is a religious settlement where people come to worship.</p>",
-            "incorrect": "<p><span>Incorrect.</span> You might want to reconsider your options.</p>" // no comma here
+            "incorrect": "<p><span>Incorrect.</span> A mission is actually a religious settlement where people come to worship.</p>" // no comma here
         },
-        { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "Where are you right now? Select ALL that apply.",
+        
+        { // Question 3 - Multiple Choice, Multiple True Answers, Select any
+            "q": "What are missionaries?",
             "a": [
-                {"option": "Planet Earth",           "correct": true},
-                {"option": "Pluto",                  "correct": false},
-                {"option": "At a computing device",  "correct": true},
-                {"option": "The Milky Way",          "correct": true} // no comma here
+                {"option": "People who are hired to go undercover on a mission",           "correct": false},
+                {"option": "People who teach religion to others",  "correct": true},
+                {"option": "People who have walked from Mexico to California", "correct": false},
+                {"option": "Priests, nuns, and brothers",  "correct": false} 
             ],
-            "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
+            "correct": "<p><span>Correct!</span> Missionaries are people who teach religion to others.</p>",
+            "incorrect": "<p><span>Incorrect.</span> Missionaries are actually people who teach religion to others.</p>" /
         },
         { // Question 4
-            "q": "How many inches of rain does Michigan get on average per year?",
+            "q": "What is the southernmost mission?",
             "a": [
-                {"option": "149",    "correct": false},
-                {"option": "32",     "correct": true},
-                {"option": "3",      "correct": false},
-                {"option": "1291",   "correct": false} // no comma here
+                {"option": "Mission San Luis Rey de Francia",    "correct": false},
+                {"option": "Mission San Diego de Alcala",     "correct": true},
+                {"option": "Mission San Juan Capistrano",      "correct": false},
+                {"option": "Mission San Gabriel Arcangel",   "correct": false}
             ],
-            "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" // no comma here
+            "correct": "<p><span>Correct!</span> Mission San Diego de Alcala is the southermost mission.</p>",
+            "incorrect": "<p><span>Incorrect.</span> The southernmost mission is actually Mission San Diego de Alcala.</p>" 
         },
         { // Question 5
-            "q": "Is Earth bigger than a basketball?",
+            "q": "Which mission was founded last?",
             "a": [
-                {"option": "Yes",    "correct": true},
-                {"option": "No",     "correct": false} // no comma here
+                {"option": "Mission San Luis Obispo de Tolosa",    "correct": true},
+                {"option": "San Juan Bautista",     "correct": false},
+                {"option": "Santa Clara de Asis",     "correct": false},
+                {"option": "San Francisco Solano",     "correct": true} 
             ],
-            "correct": "<p><span>Good Job!</span> You must be very observant!</p>",
-            "incorrect": "<p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p>" // no comma here
-        } // no comma here
+            "correct": "<p><span>Correct!</span> Mission San Francisco Solano was founded last.</p>",
+            "incorrect": "<p><span>Incorrect.</span> Mission San Francisco Solano was actually founded last.</p>" 
+        } 
     ]
 };

@@ -63,51 +63,45 @@ h1 {
     position: absolute;
     top: 10px;
 }
-.mission_1 {
+.SFS {
     margin-left: 65px;
-    margin-top: 36px;
-    display: flex;
+    margin-top: 20px;
 }
 
-.mission_1_pic {
-    height: 60px;
-    width: 40px;
+#sfs_pic {
+    height: 87px;
+    width: 167px;
     
 }
 
-.mission_1_name {
-    background-color:#C4AA97;
-    border: 1px solid #620000;
+.SFS_name {
     color: #620000;
     height: 30px;
     width: 223px;
-    margin-left: 5px;
-    margin-top: 30px;
+    margin-left: 181px;
+    margin-top: -28px;
     font-family: 'IM Fell Great Primer', serif;
     font-style: italic;
     font-size: 18px;
 }
 
-.mission_2 {
-    margin-left: 150px;
-    margin-top: 70px;
-    display: flex;
+.santa_clara {
+    margin-left: 175px;
+    margin-top: 55px;
 }
 
-.mission_2_pic {
-    height: 60px;
-    width: 40px;
+.santa_clara_pic {
+    height: 99px;
+    width: 94.5px;
     
 }
 
-.mission_2_name {
-    background-color:#C4AA97;
-    border: 1px solid #620000;
+.santa_clara_name {
     color: #620000;
     height: 30px;
     width: 223px;
-    margin-left: 5px;
-    margin-top: 30px;
+    margin-left: 106px;
+    margin-top: -31px;
     font-family: 'IM Fell Great Primer', serif;
     font-style: italic;
     font-size: 18px;
@@ -127,8 +121,6 @@ h1 {
 }
 
 .mission_3_name {
-    background-color:#C4AA97;
-    border: 1px solid #620000;
     color: #620000;
     height: 30px;
     width: 223px;
@@ -152,8 +144,6 @@ h1 {
 }
 
 .mission_4_name {
-    background-color:#C4AA97;
-    border: 1px solid #620000;
     color: #620000;
     height: 30px;
     width: 223px;
@@ -178,8 +168,6 @@ h1 {
 }
 
 .mission_5_name {
-    background-color:#C4AA97;
-    border: 1px solid #620000;
     color: #620000;
     height: 30px;
     width: 180px;
@@ -204,8 +192,6 @@ h1 {
 }
 
 .mission_6_name {
-    background-color:#C4AA97;
-    border: 1px solid #620000;
     color: #620000;
     height: 30px;
     width: 100px;

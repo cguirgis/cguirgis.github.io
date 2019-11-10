@@ -15,8 +15,10 @@ body {
 .ocean {
     background-color: #C8D4CA;
     height: 1200px;
-    width: 650px;
+    width: 29.96%;
     position: absolute;
+    left:0;
+    top:0;
 }
 
 .land {
@@ -25,7 +27,7 @@ body {
     width: 450px;
     position: absolute;
     top: 0px;
-    right: 100px;
+    right: 0px;
     
 }
 

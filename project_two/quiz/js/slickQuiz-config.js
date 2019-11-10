@@ -6,7 +6,10 @@ var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge!",
         "main":    "<p>Think you've studied enough to become a Master of the Missions? Click below to find out! </p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
+        "results": "<h5>Learn More</h5><a href="index2.html">
+                <img id="compass" src="assets/compass.png" <button class="compass"></a>
+            <a href="index2.html">
+                <button class="navigation">Back to Map</button></a>,
         "level1":  "Congratulations!  You are a Master of the Missions!",
         "level2":  "Great Job!  You are so close to becomming a Master of the Missions!",
         "level3":  "Nice Job!  Return to the Map to study some more, and then you're on your way to becoming a Master of the Missions!",
@@ -35,7 +38,8 @@ var quizJSON = {
             ],
             "correct": "<p><span>Correct!</span> A mission is a religious settlement where people come to worship.</p>",
             "incorrect": "<p><span>Incorrect.</span> A mission is actually a religious settlement where people come to worship.</p>" // no comma here
-        },
+        }, 
+        
         
         { // Question 3 - Multiple Choice, Multiple True Answers, Select any
             "q": "What are missionaries?",
@@ -46,7 +50,7 @@ var quizJSON = {
                 {"option": "Priests, nuns, and brothers",  "correct": false} 
             ],
             "correct": "<p><span>Correct!</span> Missionaries are people who teach religion to others.</p>",
-            "incorrect": "<p><span>Incorrect.</span> Missionaries are actually people who teach religion to others.</p>" /
+            "incorrect": "<p><span>Incorrect.</span> Missionaries are actually people who teach religion to others.</p>" 
         },
         { // Question 4
             "q": "What is the southernmost mission?",
@@ -62,7 +66,7 @@ var quizJSON = {
         { // Question 5
             "q": "Which mission was founded last?",
             "a": [
-                {"option": "Mission San Luis Obispo de Tolosa",    "correct": true},
+                {"option": "Mission San Luis Obispo de Tolosa",    "correct": false},
                 {"option": "San Juan Bautista",     "correct": false},
                 {"option": "Santa Clara de Asis",     "correct": false},
                 {"option": "San Francisco Solano",     "correct": true} 

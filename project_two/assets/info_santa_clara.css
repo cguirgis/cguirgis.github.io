@@ -48,7 +48,7 @@ body {
 
 .navigation_1 {
     position: absolute;
-    bottom: -39%;
+    bottom: 39%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;

@@ -47,11 +47,16 @@ body {
 }
 
 .navigation_1 {
-    position: absolute;
-    bottom: 470px;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    top: 475px;
+    margin-left: 197px;
+}
+
+a {
+    color: #620000;
 }
 
 
@@ -117,7 +122,7 @@ input[name="r"]{
     margin-left: 87px;
     text-align: center;
     font-family: 'IM Fell Great Primer', 'serif';
-    font-size: 55px;
+    font-size: 48px;
     color: #620000;
 }
 

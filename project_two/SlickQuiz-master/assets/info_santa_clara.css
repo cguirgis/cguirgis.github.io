@@ -47,11 +47,12 @@ body {
 }
 
 .navigation_1 {
-    position: absolute;
-    bottom: 470px;
+position: relative;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    top: 475px;
+    margin-left: 197px;
 }
 
 
@@ -104,6 +105,10 @@ input[name="r"]{
 
 #r4:checked ~ .s1 {
     margin-left: -60%;
+}
+
+a { 
+    color: #620000;
 }
 
 .everything_else {

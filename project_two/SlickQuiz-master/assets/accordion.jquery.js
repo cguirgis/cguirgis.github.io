@@ -81,8 +81,3 @@ $(document).ready(function () {
         $("#today_panel").removeClass("visible");
         $("#fun_facts_panel").removeClass("visible");
     });
-
-
-
-
-

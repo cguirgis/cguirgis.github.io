@@ -47,13 +47,16 @@ body {
 }
 
 .navigation_1 {
-    position: absolute;
-    bottom: 470px;
+position: relative;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    margin-left: 197px;
 }
 
+a {
+    color: #620000;
+}
 
 .bar{
     width: 25px;

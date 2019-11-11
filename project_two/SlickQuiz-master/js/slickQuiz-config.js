@@ -9,7 +9,7 @@ var quizJSON = {
         
         "<p>Think you've studied enough to become a Master of the Missions? Click below to find out!</p>",
         "results":   
-        "<h5>Click below to try again.</h5>",
+        "<h5>Click above to return to the map to keep studying!</h5>",
         "level1":  "Congratulations!  You are a Master of the Missions!",
         "level2":  "Great Job!  You are so close to becomming a Master of the Missions!",
         "level3":  "Nice Job!  Return to the Map to study some more, and then you're on your way to becoming a Master of the Missions!",

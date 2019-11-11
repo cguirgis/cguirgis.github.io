@@ -11,6 +11,12 @@ body {
     margin-right: auto;
     text-align: center;
     z-index: 99;
+    position: absolute;
+}
+
+#background {
+    width: 768;
+    position: absolute;
 }
 
 .container #background-flowers {

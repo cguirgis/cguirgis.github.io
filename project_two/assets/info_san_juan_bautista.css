@@ -46,9 +46,13 @@ body {
     transform: translate(-50%,-50%);
 }
 
+a {
+    color: #620000;
+}
+
 .navigation_1 {
     position: absolute;
-    bottom: 470px;
+    bottom: 39%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;

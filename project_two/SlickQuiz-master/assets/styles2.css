@@ -1,0 +1,194 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EDDCC4;
+}
+
+.container {
+    width: 768px;
+    height: 1021px;
+    background-color:#EDDCC4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ocean {
+    background-color: #C8D4CA;
+    height: 1200px;
+    width: 29%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.land {
+    background-color: #EDDCC4;
+    height: 600px;
+    width: 450px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+
+.instructions {
+    margin-top: -183px;
+}
+
+h3 {
+    height: 140px;
+    width: 300px;
+    margin-left: 25px;
+    color: #620000;
+    font-family: 'IM Fell Great Primer', italic;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+h1 {
+    background-color: #EDDCC4;
+    height: 140px;
+    width: 361px;
+    margin-left: 385px;
+    color: #620000;
+    font-family: 'IM Fell Great Primer', italic;
+    font-style: italic;
+    font-size: 70px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.quiz {
+    background-color:#EDDCC4;
+    border: 1px solid #620000;
+    color: #620000;
+    height: 55px;
+    width: 339px;
+    margin-left: 395px;
+    margin-top: 9.5px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-style: italic;
+    font-size: 36px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.container_2 {
+    position: absolute;
+    top: 10px;
+}
+.SFS {
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.SFS_name {
+    color: #620000;
+    height: 30px;
+    width: 223px;
+    margin-left: 181px;
+    margin-top: -28px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.santa_clara {
+    margin-left: 175px;
+    margin-top: 55px;
+}
+
+.santa_clara_name {
+    color: #620000;
+    height: 30px;
+    width: 223px;
+    margin-left: 106px;
+    margin-top: -31px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-style: italic;
+    font-size: 18px;
+    
+}
+
+.san_juan_bautista {
+    margin-left: 200px;
+    margin-top: -19px;
+}
+
+.san_juan_bautista_name {
+    color: #620000;
+    height: 30px;
+    width: 223px;
+    margin-left: 105px;
+    margin-top: -20px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.san_luis_obispo {
+    margin-left: 291px;
+    margin-top: -20px;
+    display: flex;
+}
+
+.san_luis_obispo_name {
+    color: #620000;
+    height: 30px;
+    width: 223px;
+    margin-left: 5px;
+    margin-top: 65px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-style: italic;
+    font-size: 18px;
+    
+}
+
+.san_juan_capistrano {
+    margin-left: 439px;
+    margin-top: -15px;
+    display: flex;
+}
+
+
+.san_juan_capistrano_name {
+    color: #620000;
+    height: 30px;
+    width: 180px;
+    margin-left: 8px;
+    margin-top: 82px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-style: italic;
+    font-size: 18px;
+    
+}
+
+.san_diego {
+    margin-left: 635px;
+    margin-top: 10px;
+}
+
+.san_diego_name {
+    color: #620000;
+    height: 30px;
+    width: 154px;
+    margin-left: 36px;
+    margin-top: -117px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-style: italic;
+    font-size: 18px;
+    
+}
+
+.california {
+    position: relative;
+    z-index: 1; 
+}
+
+#compass {
+    position: absolute;
+    bottom: -17px;
+    left: 108px;
+}

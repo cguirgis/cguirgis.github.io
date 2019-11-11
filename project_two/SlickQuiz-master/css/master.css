@@ -1,7 +1,7 @@
 /* QUIZ STYLES */
 /* Styles to prettify the quiz page */
 html {
-  background: #eee;
+  background: #C8D4CA;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
   border: 2px solid #ccc;
   border-top: none;
-  background: #fff;
+  background: #EDDCC4;
   padding: 20px;
   font-family: Trebuchet, Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -17,14 +17,26 @@ body {
   line-height: 1.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 { 
+font-weight: bold;
+    color: #620000;
+    font-family: 'IM Fell Great Primer', serif;
+     font-style: normal;
+
+}
+
+h4, h5, h6 {
   font-weight: bold;
+    color: #620000;
+}
+
+p {
+    color: #620000;
 }
 
 h1 {
   font-size: 26px;
   margin: 0 0 20px;
-  color: #0C4569;
 }
 
 h2 {
@@ -77,21 +89,25 @@ ol li {
   float: left;
   width: auto;
   padding: 5px 15px;
-  color: #ffffff;
-  background-color: darkcyan;
-  border: 1px solid #fff;
+  color: #EDDCC4;
+  background-color: #620000;
+  border: 1px solid #EDDCC4;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   text-decoration: none;
+    margin-left: 336px;
 }
 
 .button:hover {
-  background-color: darkslategray;
+  background-color: #EDDCC4;
+    color: #620000;
+    border: 1px solid #620000;
 }
 
 .startQuiz {
   margin-top: 40px;
+    justify-content: center;
 }
 
 .tryAgain {
@@ -119,10 +135,12 @@ ol li {
 .questionCount {
   font-size: 14px;
   font-style: italic;
+ color: #620000;
 }
 
 .questionCount span {
   font-weight: bold;
+    color: #620000;
 }
 
 ol.questions {
@@ -137,12 +155,12 @@ ol.questions li {
 ul.answers {
   margin-left: 20px;
   margin-bottom: 20px;
-  color: red;
+  color: #620000;
 }
 
 input {
-  background-color: red;
-  box-shadow: 5px 10px #888888;
+  background-color: #620000;
+  box-shadow: 5px 10px #EDDCC4;
 }
 
 ul.responses li {
@@ -156,11 +174,11 @@ ul.responses li p span {
 }
 
 .complete ul.answers li.correct, ul.responses li.correct p span {
-  color: #6C9F2E;
+  color: #620000;
 }
 
 ul.responses li.incorrect p span {
-  color: #B5121B;
+  color: #620000;
 }
 
 .quizResults h3 {

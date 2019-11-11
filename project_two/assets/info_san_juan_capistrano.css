@@ -51,11 +51,12 @@ a {
 }
 
 .navigation_1 {
-    position: absolute;
-    bottom: 39%;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    top: 475px;
+    margin-left: 197px;
 }
 
 

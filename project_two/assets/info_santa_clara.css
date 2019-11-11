@@ -48,7 +48,7 @@ body {
 
 .navigation_1 {
     position: absolute;
-    bottom: 470px;
+    bottom: -39%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -104,6 +104,10 @@ input[name="r"]{
 
 #r4:checked ~ .s1 {
     margin-left: -60%;
+}
+
+a { 
+    color: #620000;
 }
 
 .everything_else {

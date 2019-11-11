@@ -110,6 +110,10 @@ input[name="r"]{
     margin-top: 500px;
 }
 
+a {
+    color: #620000;
+}
+
 .nickname {
     height: 68px;
     width: 594px;

@@ -1,0 +1,65 @@
+@media only screen and (min-width:960px) {
+
+} 
+
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #D9D3D1;
+}
+
+.container {
+    height: 2000px;
+    background-color:#D9D3D1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    background-color: #572842;
+    height: 300px;
+    color: #E3D6CE;
+    align-content: center;
+}
+
+.name h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: bold; 
+    font-size: 36px;
+    color: #D9D3D1;
+    padding-top: 25px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.profile_pic {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.name h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #D9D3D1;
+    text-align: center;
+}
+
+.name a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #D9D3D1;
+    text-align: center; 
+}
+
+.container_education, .work_container, .container_SIBC {
+    padding-left: 5%;
+    color: #572842;
+    font-family: 'Roboto', sans-serif;
+    
+}
+

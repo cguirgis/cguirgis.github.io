@@ -1,0 +1,136 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+
+.container {
+    width: 632px;
+    height: 100px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.letter-container img {
+    position: relative;
+    z-index: 99;
+    left:10%;
+    margin: 0;
+    padding: 0; 
+    margin-top: -498px;
+    margin-left: 49.75px;
+    visibility: hidden;
+}
+
+.letter-analysis {
+    visibility: visible;
+}
+.title {
+    background-color: #000000;
+    height: 71px;
+    width: 632px;
+    margin-left: 200px;
+    margin-right: auto;
+    color: #FFFFFF;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Monoton', cursive;
+} 
+
+.large-letter-group {
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #000000;
+    height: 650px;
+}
+
+.large-letter-group h1 {
+    background-color: #000000;
+    margin-left: 150px;
+    margin-top: 100px;
+    height: 650px;
+    width: 475px;
+    margin-bottom: -30px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Monoton', cursive;
+    font-size: 514px;
+    font-weight: 100;
+    color: #FFF500;
+}
+
+.font-name {
+    color: #FF1D00;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Monoton', cursive;
+}
+
+.font-description {
+    color: #FFFFFF;
+    font: 'Helvetica';
+}
+
+.large-letter-group button {
+    height: 99px;
+    width: 62px;
+    background-color: #FFFFFF;
+    margin-left: 650px;
+    margin-top: -300px;
+}
+
+.letter-set {
+    background-color: #FFFFFF;
+    height: 158px;
+    margin-top: 40px;
+    color: #000000;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Monoton', cursive;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.make-copy {
+    background-color: #9D9D9D;
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    margin-top: 50px;
+}
+
+footer img {
+    height: 95px;
+    width: 95px;
+    background-color: #FFFFFF;
+    margin-right: 15px;
+}
+
+footer .author-heading {
+    width: 109px;
+    height: 30px;
+    background-color: #000000;
+    margin-right: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Monoton', cursive;
+    font-size: 18px;
+    color: red;
+}
+
+
+footer .sources-section h3 {
+    width: 398px;
+    background-color: #000000;
+    margin-right: 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Monoton', cursive;
+    font-size: 18px;
+    color: #FF1D00;
+}
+
+footer .sources-section div{
+    width: 398px;
+    background-color: #000000;
+    margin-right: 50px;
+    font-family: 'Helvetica', serif;
+    font-size: 18px;
+    color: #FFFFFF;

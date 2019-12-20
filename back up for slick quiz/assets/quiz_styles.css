@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EDDCC4;
+}
+
+.container {
+    width: 768px;
+    height: 1021px;
+    background-color:#EDDCC4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quiz1 {
+    color: #620000;
+    font-size: 18px;
+    position: absolute;
+}
+
+#FJS {
+    top: 150px;
+    right: -6px;
+    height: 600px;
+    position: absolute;
+}
+
+.navigation_panel {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+.compass {
+    background-color: #EDDCC4;
+    height: 61px;
+    width: 58px;
+}
+
+.navigation {
+    background-color: #EDDCC4;
+    height: 61px;
+    width: 273px;
+    margin-right: 25px;
+    font-family: 'IM Fell Great Primer', 'serif';
+    color: #620000;
+    font-style: italic;
+    font-size: 40px;

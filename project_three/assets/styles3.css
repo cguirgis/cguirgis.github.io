@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.container3 {
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url("zoomed_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.quote {
+    padding: 2.915%;
+    width: 100vw;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
+    font-size: 20px;
+    line-height: 22px;
+    box-shadow: 10px 6px 0 #000000, -10px -6px 0 #000000, 10px -6px 0 #000000, -10px 6px 0 #000000;
+    background: #000000;
+    letter-spacing: 0;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+iframe {
+    margin-top:2.5%;
+/*    width="560" height="315"*/
+    width: 80vw;
+    height:50vh;
+}
+

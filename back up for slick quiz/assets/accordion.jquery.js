@@ -2,6 +2,7 @@ $(document).ready(function () {
     $('#history').click(function () {
         
         $("#history_panel").toggleClass("visible");
+        
         $("#history.accordion").toggleClass("active");
         
         $("#key.accordion").removeClass("active");
@@ -54,18 +55,14 @@ $(document).ready(function () {
         
         $("#fun_facts.accordion").toggleClass("active");
         
-         $("#today_panel").removeClass("visible");
-        
-        $("#today.accordion").removeClass("active");
-        
         $("#history.accordion").removeClass("active");
         $("#key.accordion").removeClass("active");
-        
+        $("#today.accordion").removeClass("active");
         $("#looking_for_more.accordion").removeClass("active");
         
         ("#history_panel").removeClass("visible");
         $("#key_panel").removeClass("visible");
-        
+        $("#today_panel").removeClass("visible");
         $("#looking_for_more_panel").removeClass("visible");
     });
 
@@ -84,3 +81,8 @@ $(document).ready(function () {
         $("#today_panel").removeClass("visible");
         $("#fun_facts_panel").removeClass("visible");
     });
+
+
+
+
+

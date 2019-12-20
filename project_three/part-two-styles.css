@@ -1,0 +1,147 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #000000;
+    position: absolute;
+}
+
+section {
+  height:100vh;
+  width:100vw;
+  position:fixed;
+  top:0;
+  left:0;
+  visibility:hidden;
+}
+
+section.visible {
+  visibility:visible;
+}
+
+button {
+    background-color: #0003ff;
+    color: #fff;
+}
+
+.sect-1 {
+  background-image: url("assets/ocean.png");
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.quote1 {
+    font-weight: 500;
+    font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
+    font-size: 16px;
+    line-height: 22px;
+    box-shadow: 10px 6px 0 #000000, -10px -6px 0 #000000, 10px -6px 0 #000000, -10px 6px 0 #000000;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000000;
+    letter-spacing: 0;
+    border-bottom: none;
+    color: #FFFFFF;
+    display: block;
+    position: relative;
+}
+
+.sect-2 {
+    background-color: #000000;
+}
+
+.sect-51 {
+    background-color: #000000;
+}
+
+.sect-52 {
+    background-color: #000000;
+}
+
+.quote2, .quote51, .quote52 {
+    letter-spacing: 0.01em;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 660px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    margin-top: 100px;
+    color: #fff;
+    font-family: 'nyt-cheltenham-sh', 'nyt-cheltenham', georgia, 'times new roman', times, serif;
+    font-weight: 100;
+    text-align: justify;
+}
+
+iframe {
+    margin-top:2.5%;
+    width: 80vw;
+    height:50vh;
+}
+
+.video-page {
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url("assets/zoomed_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sect-50 {
+  background-image: url("assets/environments_advertisement.png");
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.quote50 {
+     font-weight: 500;
+    font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
+    font-size: 16px;
+    line-height: 22px;
+    box-shadow: 10px 6px 0 #000000, -10px -6px 0 #000000, 10px -6px 0 #000000, -10px 6px 0 #000000;
+    background: #000000;
+    letter-spacing: 0;
+    border-bottom: none;
+    color: #FFFFFF;
+    display: block;
+    position: relative;
+    margin-top: 725px;
+}
+
+.sect-53 {
+  background-image: url("assets/pyschologically_ultimate_seashore.png");
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.quote53 {
+    font-weight: 500;
+    font-family: 'nyt-cheltenham', georgia, 'times new roman', times, serif;
+    font-size: 16px;
+    line-height: 22px;
+    box-shadow: 10px 6px 0 #000000, -10px -6px 0 #000000, 10px -6px 0 #000000, -10px 6px 0 #000000;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000000;
+    letter-spacing: 0;
+    border-bottom: none;
+    color: #FFFFFF;
+    display: block;
+    position: relative;
+}

@@ -1,0 +1,235 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EDDCC4;
+}
+
+.container {
+    width: 768px;
+    height: 1021px;
+    background-color: #EDDCC4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    height: 97px;
+    width: 725px;
+    margin-left: 13px;
+    margin-top: 16px;
+    text-align: center;
+    font-family: 'IM Fell Great Primer', 'serif';
+    font-size: 75px;
+    color: #620000;
+    font-style: italic;
+}
+
+.pictures {
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 35px;
+    
+}
+
+.slideshow {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.middle {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.navigation_1 {
+    position: absolute;
+    bottom: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+
+.bar{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #620000;
+    border-radius: 50%;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background: #620000;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#r3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#r4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+.everything_else {
+    margin-top: 500px;
+}
+
+.nickname {
+    height: 68px;
+    width: 594px;
+    margin-top: 60px;
+    margin-left: 87px;
+    text-align: center;
+    font-family: 'IM Fell Great Primer', 'serif';
+    font-size: 55px;
+    color: #620000;
+}
+
+.summary {
+    height: 138px;
+    width: 703px;
+    margin-top: 20px;
+    margin-left: 32.5px;
+    font-family: 'IM Fell Great Primer', 'serif';
+    font-size: 18px;
+    color: #620000;
+}
+
+.picture_content {
+    height: 400px;
+    width: 400px;
+    align-content: center;
+}
+
+.accordion {
+    background-color: #620000;
+    cursor: pointer;
+    padding: 18px;
+    color: #EDDCC4;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 20px;
+    font-family: 'IM Fell Great Primer', 'serif';
+    font-size: 18px;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #EDDCC4;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+#key_panel {
+    background-color: #EDDCC4;
+    color: #620000;
+    font-size: 18px;
+    font-family: 'IM Fell Great Primer', 'serif';
+}
+
+#history_panel {
+    background-color: #EDDCC4;
+    color: #620000;
+    font-size: 18px;
+    font-family: 'IM Fell Great Primer', 'serif';
+}
+
+#today_panel {
+    background-color: #EDDCC4;
+    color: #620000;
+    font-size: 18px;
+    font-family: 'IM Fell Great Primer', 'serif';
+}
+
+#fun_facts_panel {
+    background-color: #EDDCC4;
+    color: #620000;
+    font-size: 18px;
+    font-family: 'IM Fell Great Primer', 'serif';
+}
+
+#looking_for_more_panel {
+    background-color: #EDDCC4;
+    color: #620000;
+    font-size: 18px;
+    font-family: 'IM Fell Great Primer', 'serif';
+}
+
+.navigation_panel {
+    display: flex;
+    margin-left: 440px;
+    margin-top: 10px;
+}
+
+.compass {
+    background-color: #EDDCC4;
+    height: 61px;
+    width: 58px;
+}
+
+.navigation {
+    background-color: #EDDCC4;
+    height: 61px;
+    width: 273px;
+    margin-right: 25px;
+    font-family: 'IM Fell Great Primer', 'serif';
+    color: #620000;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.visible {
+    display: block;
+
+}

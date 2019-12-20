@@ -31,10 +31,9 @@ body {
     border-bottom-style: double;
 }
 
-.container #background {
+.container #background{
     position: absolute;
     justify-content: center;
-    margin-right: 100px;
 }
 
 .container #profile {
@@ -51,32 +50,8 @@ body {
 
 a {
     color: #5E2543;
-}
-
-.accordion {
-    background-color: #5E2543;
-    cursor: pointer;
-    padding: 18px;
-    color: #EDDCC4;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    margin-top: 20px;
-    font-size: 18px;
-}
-
-.accordion:after {
-  content: '\002B';
-  color: #EDDCC4;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
+    display: block;
+    padding: 3px;
 }
 
 .panel {
@@ -86,28 +61,5 @@ a {
     overflow: hidden;
 }
 
-#exercises_panel {
-    background-color: #EDDCC4;
-    color: #620000;
-    font-size: 18px;
-    font-family: 'IM Fell Great Primer', 'serif';
-}
-
-#project_one_panel {
-    background-color: #EDDCC4;
-    color: #620000;
-    font-size: 18px;
-    font-family: 'IM Fell Great Primer', 'serif';
-}
-
-#project_two_panel {
-    background-color: #EDDCC4;
-    color: #620000;
-    font-size: 18px;
-    font-family: 'IM Fell Great Primer', 'serif';
-}
-
-.visible {
-    display: block;
-
+.projects 
 }
